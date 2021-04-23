@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #e5f4f8;
+    height: 95vh;
+}
+
+.title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #add8e6;
+    font-size: 18px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#message {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #11414e;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.card {
+    width: 130px;
+    height: 180px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 9px -1px rgba(0, 0, 0, 0.75);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    background-image: url("./IMG/card_back.png");
+    background-size: cover;
+}
+
+.showIcon {
+    display: block;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card i {
+    font-size: 50px;
+    color: #2a83a0;
+    z-index: -100;
+}
+
+.front {
+    display: none;
+}
