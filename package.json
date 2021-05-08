@@ -4,12 +4,15 @@
   "description": "simple memory game with icons",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "author": "Jurgita Adomaviciene",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
   }
 }
